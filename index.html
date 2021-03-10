@@ -5,69 +5,45 @@
     <title>Project 2</title>
     <style type="text/css">
         
-        .demo {
-	color: rgba(255, 255, 255, 1);
-	padding: 2rem;
-	border-radius: 3px;
+
+    .demo-grid {
+	    width: 95%;
+	    margin: 0 auto;
+	    display: grid;
+	    grid-template-columns: 1fr 2fr;
+        }
+
+
+Header.demo {
+    background-color: blue;
 }
 
-header.demo {
-	background-color: #6B5CA5;
+aside.demo{
+    background-color: burlywood;
 }
 
-aside.demo {
-	background-color: #52AA8A;
+Main.demo {
+    background-color: blueviolet;
+}
+ 
+footer.demo{
+    background-color: blue;
 }
 
-main.demo {
-	background-color: #F76C5E;
+
+
+
+
+    .demo-grid header,
+    .demo-grid footer,
+    .demo-grid aside,
+    .demo-grid main {
+	    grid-column: span 2;   
 }
 
-footer.demo {
-	background-color: #3AAED8;	
-}
 
-/* Float-based layout. */
-@media only screen and (min-width: 600px) {
-	.demo-container {
-		width: 95%;
-		margin: 0 auto;
-	}
-	
-	.demo-container aside {
-		width: 33%;
-		float: left;
-	}
-	
-	.demo-container main {
-		float: left;
-		width: 67%;
-	}
-}
-
-.clearfix::after {
-	content: "";
-	clear: both;
-	display: table;
-}
-
-/* CSS Grid layout. */
-.demo-grid {
-	width: 95%;
-	margin: 0 auto;
-	display: grid;
-	grid-template-columns: 1fr 2fr;
-}
-
-.demo-grid header,
-.demo-grid footer,
-.demo-grid aside,
-.demo-grid main {
-	grid-column: span 2;
-}
-
-.demo-grid aside {
-	grid-row: 3;
+    .demo-grid aside {
+	    grid-row: 3;
 }
 
 @media only screen and (min-width: 600px) {
@@ -81,5 +57,5 @@ footer.demo {
 	}	
 }    
            
-                    
-
+ 
+}
