@@ -5,48 +5,49 @@
     <title>Project 2</title>
     <style type="text/css">
 
-.jess {
+.Alex {
     color: rgba(255, 255, 255, 1);
     padding: 2rem;
     border-radius: 3px;
+	text-align: center;
 }
 
-header.jess {
+header.Alex {
     background-color: #6B5CA5;
 }
 
-aside.jess {
+aside.Alex {
     background-color: #52AA8A;
 }
-aside2.jess {
+aside2.Alex {
     background-color: #52AA8A;
 }
 
-main.jess {
+main.Alex {
     background-color: #F76C5E;
 }
 
-footer.jess {
+footer.Alex  {
     background-color: #3AAED8;  
 }
 
 /* Float-based layout. */
 @media only screen and (min-width: 600px) {
-    .jess-container {
+    .Alex -container {
         width: 95%;
         margin: 0 auto;
     }
    
-    .jess-container aside {
+    .Alex-container aside {
         width: 33%;
         float: left;
     }
-    .jess-container aside2 {
+    .Alex -container aside2 {
         width: 33%;
         float: left;
     }
    
-    .jess-container main {
+    .Alex -container main {
         float: left;
         width: 67%;
     }
@@ -59,53 +60,52 @@ footer.jess {
 }
 
 /* CSS Grid layout. */
-.jess-grid {
+.Alex-grid {
     width: 95%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 3.5fr 3.5fr;
 }
 
-.jess-grid header,
-.jess-grid footer,
-.jess-grid aside,
-.jess-grid aside2,
-.jess-grid main {
+.Alex-grid header,
+.Alex-grid footer,
+.Alex-grid aside,
+.Alex-grid aside2,
+.Alex-grid main {
     grid-column: span 2;
 }
 
-.jess-grid aside {
+.Alex -grid aside {
     grid-row: 3;
 }
-.jess-grid aside2 {
+.Alex-grid aside2 {
     grid-row: 3;
 }
 
 @media only screen and (min-width: 600px) {
-    .jess-grid aside {
+    .Alex-grid aside {
         grid-column: 1;
         grid-row: 2;
     }
 @media only screen and (min-width: 600px) {
-    .jess-grid aside2 {
+    .Alex-grid aside2 {
         grid-column: 2;
         grid-row: 3;
     }
 
-    .jess-grid main {
+    .Alex-grid main {
         grid-column: 2 / -1;
     }  
 }
 
 </style>
-
-<!-- CSS Grid -->
-<div class="jess-grid">
-    <header class="jess">Header</header>
-    <aside class="jess">Sidebar</aside>
-    <main class="jess">Main content</main>
-    <aside2 class="jess">Sidebar2</aside2>
-    <footer class="jess">Footer</footer>
-</div>
-
-</html>
+ 
+ <div class="alex-grid">
+	 <header class="alex">Header</header>
+	 <aside class="alex">Sidebar 1</aside>
+	 <main class="alex">Main </main>
+	 <aside2 class="alex">Sidebar 2</aside2>
+	 <footer class="alex">Footer</footer>
+ </div>
+ 
+ 
