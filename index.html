@@ -8,6 +8,9 @@
     <aside class="alex">Sidebar</aside>
     <main class="alex">Main content</main>
 	<aside2 class="alex">Sidebar 2</aside2>
+	<aside3 class="alex">Sidebar 3</aside2>
+	<aside4 class="alex">Sidebar 4</aside2>
+	<aside5 class="alex">Sidebar 5</aside2>
     <footer class="alex">Footer</footer>
 </div>
 
@@ -34,7 +37,16 @@ aside.alex {
 aside2.alex {
     background-color: #FDE231;
 }
+aside3.alex {
+    background-color: #FDE231;
+}
+aside4.alex {
+    background-color: #FDE231;
+}
+aside5.alex {
+    background-color: #FDE231;
 
+}
 
 main.alex {
     background-color: #66BCB5;
@@ -44,33 +56,8 @@ footer.alex {
     background-color: #488CCA;  
 }
 
-/* Float-based layout. */
-@media only screen and (min-width: 600px) {
-    .alex-container {
-        width: 95%;
-        margin: 0 auto;
-    }
-   
-    .alex-container aside {
-        width: 33%;
-        float: left;
-    }
-    .alex-container aside2 {
-        width: 33%;
-        float: left;
-    }
-   
-    .alex-container main {
-        float: left;
-        width: 67%;
-    }
-}
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
+
 
 /* CSS Grid layout. */
 .alex-grid {
@@ -84,15 +71,32 @@ footer.alex {
 .alex-grid footer,
 .alex-grid aside,
 .alex-grid aside2,
+.alex-grid aside3,
+.alex-grid aside4,
+.alex-grid aside5,
 .alex-grid main {
     grid-column: span 2;
 }
 
 .alex-grid aside {
-    grid-row: 3;
+    grid-row: 2;
+	grid-column: 1;
 }
 .alex-grid aside2 {
-    grid-row: 3;
+    grid-row: 2;
+	grid-column: 3;
+}
+.alex-grid aside3 {
+    grid-row: 4;
+	grid-column: 1;
+}
+.alex-grid aside4 {
+    grid-row: 4;
+	grid-column: 2;
+}
+.alex-grid aside5 {
+    grid-row: 4;
+	grid-column: 4;
 }
 
 @media only screen and (min-width: 600px) {
