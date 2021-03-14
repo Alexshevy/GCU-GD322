@@ -75,7 +75,7 @@ footer.alex {
     width: 95%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 4fr 2fr;
+    grid-template-columns: 6fr 6fr 6fr 6fr 6fr 6fr;
 }
 
 .alex-grid header,
@@ -85,13 +85,23 @@ footer.alex {
 }
 
 .alex-grid aside,
-.alex-grid aside2,
+.alex-grid aside2{
+	grid-column: span 3;
+}
+
+
 .alex-grid aside3,
 .alex-grid aside4,
-.alex-grid aside5,
-.alex-grid main,
+.alex-grid aside5{
+	grid-column: span 3;
+}
+
+.alex-grid main{
+ grid-column: span 3;
+}
+
 .alex-grid div{
- grid-column: span 2;
+ grid-column: span -1;
 }
 
 .alex-grid aside {
