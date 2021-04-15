@@ -7,9 +7,18 @@
 }
 header.web {
     background-color: #2658A6;
-    margin-top: -30;
-    margin-left: -45 ;
-    margin-right: -45 ;
+    margin-top: -30px;
+    margin-left: -45px ;
+    margin-right: -45px ;
+    height: 10px;
+}
+
+nav.web {
+    background-color: #7EBFE9;
+    margin-top: 100px;
+    margin-left: -45px ;
+    margin-right: -45px ;
+    height: 5px;
 }
 .web-grid header,
 .web-grid footer,
