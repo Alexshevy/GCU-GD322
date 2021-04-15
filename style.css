@@ -1,12 +1,12 @@
 .web {
-    color: rgba(255, 255, 255, 1);
+    color: #E6E7E8;
     padding: 5rem;
     border-radius: 0;
 	text-align: center;
     font-size: 30pt;
 }
 header.web {
-    background-color: #636363;
+    background-color: #2658A6;
 }
 .web-grid header,
 .web-grid footer,
