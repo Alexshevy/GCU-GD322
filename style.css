@@ -4,29 +4,57 @@
     border-radius: 0;
     text-align: center;
     font-size: 15pt;
+    
 }
 
 header.alex {
-    background-color: #2658A6;
+    background-color:  #2658A6;
     margin-top: -30px;
     margin-left: -45px ;
     margin-right: -45px ;
+    padding: 4rem;
+    font-family: "Bangers", 
 }
-nav.alex {
-    background-color: #7EBFE9;
-    margin-top: -30px;
-    margin-left: -45px ;
-    margin-right: -45px ;
-    padding: 1rem;
-    grid-row: 2;
-}
-.alex-grid {
-    width: 95%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 6fr 6fr 6fr 6fr 6fr 6fr;
-}
-.alex-grid nav,
-.alex-grid header{
-grid-column: span 6;
-}
+
+
+
+
+/* Set height of body and the document to 100% */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  /* Style tab links */
+  .tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+  
+  #Home {background-color:#E6E7E8;}
+  #News {background-color: green;}
+  #Contact {background-color:#7EBFE9;}
+  #About {background-color: orange;}
+  
+
+  #2658A6
