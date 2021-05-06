@@ -64,15 +64,36 @@ display: block;
 width: 350px;
 }
 
+.yardSale2{
+  display: block;
+  width: 400px;
+}
+
+
+
+
 main.box{ 
-background-color: #FCF7FF;
-font-size: 25px;
-font-family: "Lora", sans-serif;
+
+font-size: 13pt;
+font-family: "Montserrat";
 text-align: center;
-color: #975FB6; 
+color: #ffffff; 
 margin-left: -45px;
 margin-top: -20px;
 }
+
+main.box2{ 
+
+  font-size: 22pt;
+  font-family: "Montserrat";
+  text-align: center;
+  color: #ffffff; 
+  margin-left: -45px;
+  margin-top: -20px;
+  }
+  
+
+
 
 
 /* Set height of body and the document to 100% */
